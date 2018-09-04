@@ -1,1 +1,2 @@
 # LEA
+//fizzbuzz js basic
