@@ -1,2 +1,2 @@
-# LEA
-//fizzbuzz js basic
+# Practice Problems
+//place to store practice problems
