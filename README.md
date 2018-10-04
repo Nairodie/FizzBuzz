@@ -1,2 +1,1 @@
-# Practice Problems
-//place to store practice problems
+Using C# to solve FizzBuzz logic and adding unit tests to the logic.
