@@ -2,25 +2,25 @@ namespace FizzBuzz
 {
     public class FizzBuzz
     {
-        public static string Output(int number)
+        public static string Output(int x)
         {
             string output;
 
-            if ((number % 3 == 0) && (number % 5 == 0))
+            if ((x % 3 == 0) && (x % 5 == 0))
             {
                 output = "FizzBuzz";
             }
-            else if(number % 3 == 0)
+            else if(x % 3 == 0)
             {
                 output = "Fizz";
             }
-            else if (number % 5 == 0)
+            else if (x % 5 == 0)
             {
                 output = "Buzz";
             }
             else
             {
-                output = number.ToString();
+                output = x.ToString();
             }
 
             return output;
