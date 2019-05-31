@@ -4,6 +4,7 @@ namespace FizzBuzz
     {
         public static string Output(int x)
         {
+            var collection = Enumberable.Range(1,100);
             string output;
 
             if ((x % 3 == 0) && (x % 5 == 0))
