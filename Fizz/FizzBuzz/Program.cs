@@ -6,11 +6,8 @@ namespace FizzBuzz
     {
         static void Main()
         {
-           for (int i = 1; i <= 100; i++)
-           {
-               Console.WriteLine(FizzBuzz.Output(i));
-           }
-
+           Console.WriteLine(FizzBuzz.Output(i));
+            
            Console.WriteLine("Press enter to exit");
            Console.ReadLine();
         }
